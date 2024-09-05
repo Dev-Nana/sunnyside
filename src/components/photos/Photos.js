@@ -5,7 +5,7 @@ import Orange from "../../assets/img/desktop/image-gallery-orange.jpg";
 import Cone from "../../assets/img/desktop/image-gallery-cone.jpg";
 import Sugar from "../../assets/img/desktop/image-gallery-sugarcubes.jpg";
 
-import "./Photos.scss";
+import "./Photos.css";
 
 export const Photos = () => {
   return (

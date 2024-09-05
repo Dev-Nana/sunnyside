@@ -1,0 +1,35 @@
+.photos__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.photos__content .column1,
+.photos__content .column2 {
+  width: 50%;
+}
+.photos__content .column1 .milk,
+.photos__content .column1 .orange,
+.photos__content .column1 .cone,
+.photos__content .column1 .sugar,
+.photos__content .column2 .milk,
+.photos__content .column2 .orange,
+.photos__content .column2 .cone,
+.photos__content .column2 .sugar {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (max-width: 576px) {
+  .photos__content {
+    flex-wrap: wrap;
+  }
+  .photos__content .column1,
+  .photos__content .column2 {
+    width: 100%;
+    height: 50vw;
+  }
+}
+
+/*# sourceMappingURL=Photos.css.map */

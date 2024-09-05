@@ -1,0 +1,172 @@
+.section__content {
+  display: flex;
+  flex-direction: column;
+}
+.section__content .section_egg,
+.section__content .section_glass {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.section__content .section_egg .section,
+.section__content .section_glass .section {
+  padding: 9.3vw;
+  width: 50%;
+}
+.section__content .section_egg .section .title,
+.section__content .section_glass .section .title {
+  color: var(--black);
+  font-family: "Fraunces", serif;
+  font-size: 3vw;
+}
+.section__content .section_egg .section .text,
+.section__content .section_glass .section .text {
+  color: var(--gray);
+  font-weight: 600;
+  font-size: 1.2vw;
+  padding: 2vw 0;
+}
+.section__content .section_egg .section .div_link,
+.section__content .section_glass .section .div_link {
+  width: 9vw;
+  height: 0.7vw;
+  position: relative;
+  border-radius: 5px;
+}
+.section__content .section_egg .section .div_link .link,
+.section__content .section_glass .section .div_link .link {
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  position: absolute;
+  color: var(--black);
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  font-size: 1.1vw;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.section__content .section_egg .egg,
+.section__content .section_glass .egg {
+  background: url(../../assets/img/desktop/image-transform.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 50%;
+}
+.section__content .section_egg .glass,
+.section__content .section_glass .glass {
+  background: url(../../assets/img/desktop/image-stand-out.jpg) no-repeat;
+  background-size: 100% auto;
+  width: 50%;
+}
+.section__content .section_glass {
+  flex-direction: row-reverse;
+}
+.section__content .section_glass .section .div_link {
+  background-color: var(--orange);
+}
+.section__content .section_egg .section .div_link {
+  background-color: var(--yellow2);
+}
+.section__content .section_fruit {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+}
+.section__content .section_fruit .cherry {
+  background-image: url(../../assets/img/desktop/image-graphic-design.jpg);
+}
+.section__content .section_fruit .orange {
+  background-image: url(../../assets/img/desktop/image-photography.jpg);
+}
+.section__content .section_fruit .cherry, .section__content .section_fruit .orange {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: 50%;
+  text-align: center;
+  padding: 24.9vw 11.3vw 2.5vw 11.3vw;
+}
+.section__content .section_fruit .cherry .title, .section__content .section_fruit .orange .title {
+  color: var(--green2);
+  font-family: "Fraunces", serif;
+  font-size: 2.3vw;
+  padding-bottom: 2vw;
+}
+.section__content .section_fruit .cherry .text, .section__content .section_fruit .orange .text {
+  color: var(--green2);
+  font-weight: 600;
+  font-size: 1.2vw;
+}
+
+@media screen and (max-width: 576px) {
+  .section__content .section_egg,
+  .section__content .section_glass {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 185vw;
+  }
+  .section__content .section_egg .section,
+  .section__content .section_glass .section {
+    text-align: center;
+    padding: 15vw 0;
+    width: 100%;
+    height: 55%;
+  }
+  .section__content .section_egg .section .title,
+  .section__content .section_glass .section .title {
+    font-size: 6.5vw;
+    padding: 0 17vw;
+  }
+  .section__content .section_egg .section .text,
+  .section__content .section_glass .section .text {
+    font-size: 4.5vw;
+    padding: 6vw 7vw;
+  }
+  .section__content .section_egg .section .div_link,
+  .section__content .section_glass .section .div_link {
+    width: 35vw;
+    height: 2.5vw;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%, 100%);
+  }
+  .section__content .section_egg .section .div_link .link,
+  .section__content .section_glass .section .div_link .link {
+    font-size: 4.5vw;
+  }
+  .section__content .section_egg .egg,
+  .section__content .section_egg .glass,
+  .section__content .section_glass .egg,
+  .section__content .section_glass .glass {
+    background-size: contain;
+    width: 100%;
+    height: 45%;
+  }
+  .section__content .section_fruit {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 300vw;
+  }
+  .section__content .section_fruit .cherry, .section__content .section_fruit .orange {
+    background-size: 190% 110%;
+    background-position: center 3%;
+    width: 100%;
+    padding: 10vw 6vw;
+    height: 50%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    flex-direction: column;
+  }
+  .section__content .section_fruit .cherry .title, .section__content .section_fruit .orange .title {
+    font-size: 6.5vw;
+  }
+  .section__content .section_fruit .cherry .text, .section__content .section_fruit .orange .text {
+    font-size: 4vw;
+    padding: 2vw 0;
+  }
+}
+
+/*# sourceMappingURL=Section.css.map */

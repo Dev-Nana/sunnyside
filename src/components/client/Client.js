@@ -4,7 +4,7 @@ import Emily from "../../assets/img/desktop/image-emily.jpg";
 import Thomas from "../../assets/img/desktop/image-thomas.jpg";
 import Jennie from "../../assets/img/desktop/image-jennie.jpg";
 
-import "./Client.scss";
+import "./Client.css";
 
 export const Client = () => {
   return (

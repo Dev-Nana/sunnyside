@@ -1,0 +1,32 @@
+.footer__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5vw;
+  background-color: var(--green);
+}
+.footer__content .logo {
+  padding-top: 1em;
+  display: flex;
+  width: 8em;
+}
+.footer__content .resources {
+  display: flex;
+  flex-direction: row;
+}
+.footer__content .resources .about, .footer__content .resources .services, .footer__content .resources .projects {
+  color: var(--green3);
+  font-weight: 600;
+  padding: 2.2em;
+}
+.footer__content .resources .about:hover, .footer__content .resources .services:hover, .footer__content .resources .projects:hover {
+  filter: brightness(0) invert(1);
+}
+.footer__content .contacts .facebook, .footer__content .contacts .instagram, .footer__content .contacts .twitter, .footer__content .contacts .pinterest {
+  padding: 1em;
+}
+.footer__content .contacts .facebook:hover, .footer__content .contacts .instagram:hover, .footer__content .contacts .twitter:hover, .footer__content .contacts .pinterest:hover {
+  filter: brightness(0) invert(1);
+}
+
+/*# sourceMappingURL=Footer.css.map */

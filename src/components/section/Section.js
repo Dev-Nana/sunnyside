@@ -1,7 +1,7 @@
 import React from 'react';
 
-import './Section.scss';
-import '../../styles.scss';
+import './Section.css';
+import '../../styles.css';
 
 export const Section = () => {
   return (

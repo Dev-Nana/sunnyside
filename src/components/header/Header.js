@@ -6,8 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import './Header.scss';
-import '../../styles.scss';
+import './Header.css';
+import '../../styles.css';
 
 export const Header = () => {
   return (

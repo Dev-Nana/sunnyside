@@ -6,7 +6,7 @@ import Twitter from "../../assets/icon/icon-twitter.svg";
 import Pinterest from "../../assets/icon/icon-pinterest.svg";
 import Logo from "../../assets/icon/logo-green.svg";
 
-import "./Footer.scss";
+import "./Footer.css";
 
 
 export const Footer = () => {

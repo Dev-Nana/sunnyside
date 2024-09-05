@@ -1,0 +1,106 @@
+.client__content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 8.2vw 9vw;
+}
+.client__content .title {
+  font-family: "Fraunces", serif;
+  text-transform: uppercase;
+  color: var(--gray);
+  letter-spacing: 5px;
+  font-size: 1.5vw;
+  padding-bottom: 1vw;
+}
+.client__content .client {
+  padding: 1vw 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.client__content .client .emily,
+.client__content .client .thomas,
+.client__content .client .jennie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  padding: 1.4vw;
+}
+.client__content .client .emily .portrait,
+.client__content .client .thomas .portrait,
+.client__content .client .jennie .portrait {
+  border-radius: 100%;
+  width: 5vw;
+}
+.client__content .client .emily .text,
+.client__content .client .thomas .text,
+.client__content .client .jennie .text {
+  font-size: 1.2vw;
+  padding: 3vw 0;
+  text-align: center;
+  color: var(--gray2);
+  font-weight: 600;
+  line-height: 2.5vw;
+}
+.client__content .client .emily .name,
+.client__content .client .thomas .name,
+.client__content .client .jennie .name {
+  font-family: "Fraunce", serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+  color: var(--black);
+}
+.client__content .client .emily .account,
+.client__content .client .thomas .account,
+.client__content .client .jennie .account {
+  font-size: 1vw;
+  color: var(--gray);
+  font-weight: 500;
+}
+
+@media screen and (max-width: 576px) {
+  .client__content {
+    padding: 13vw 9vw;
+  }
+  .client__content .title {
+    font-size: 4vw;
+    padding-bottom: 6vw;
+  }
+  .client__content .client {
+    flex-wrap: wrap;
+    height: 100%;
+  }
+  .client__content .client .emily,
+  .client__content .client .thomas,
+  .client__content .client .jennie {
+    height: 33%;
+    width: 100%;
+    padding: 4vw 1vw;
+  }
+  .client__content .client .emily .portrait,
+  .client__content .client .thomas .portrait,
+  .client__content .client .jennie .portrait {
+    border-radius: 100%;
+    width: 17vw;
+  }
+  .client__content .client .emily .text,
+  .client__content .client .thomas .text,
+  .client__content .client .jennie .text {
+    font-size: 4.3vw;
+    padding: 5vw 0;
+    line-height: 8vw;
+  }
+  .client__content .client .emily .name,
+  .client__content .client .thomas .name,
+  .client__content .client .jennie .name {
+    font-size: 5vw;
+  }
+  .client__content .client .emily .account,
+  .client__content .client .thomas .account,
+  .client__content .client .jennie .account {
+    font-size: 3.6vw;
+  }
+}
+
+/*# sourceMappingURL=Client.css.map */
