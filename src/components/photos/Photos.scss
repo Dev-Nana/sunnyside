@@ -1,0 +1,28 @@
+.photos__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  .column1,
+  .column2 {
+    width: 50%;
+    .milk,
+    .orange,
+    .cone,
+    .sugar {
+      width: 50%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+}
+@media screen and (max-width: 576px) {
+  .photos__content {
+    flex-wrap: wrap;
+    .column1,
+    .column2 {
+      width: 100%;
+      height: 50vw;
+    }
+  }
+}

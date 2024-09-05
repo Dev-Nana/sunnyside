@@ -1,0 +1,81 @@
+.navbar__content {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  background-color: var(--background);
+  .container {
+    padding: 0 1.2rem;
+    max-width: 100%;
+    position: relative;
+    .show {
+      display: flex;
+      background-color: var(--white);
+      padding: 25px;
+      top: 75px;
+      right: -10px;
+      width: clamp(275px, 100%, 40%);
+      margin: 0 45px;
+      position: absolute;
+      &::before {
+        content: "";
+        position: absolute;
+        border-style: solid;
+        border-width: 10px;
+        border-color: transparent var(--white) var(--white) transparent;
+        top: -19px;
+        right: 0;
+      }
+      .nav {
+        padding-right: 0 !important;
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        .link {
+          padding: 0 0 25px 0 !important;
+          color: var(--gray) !important;
+        }
+        .btn {
+          background-color: var(--yellow);
+          &:hover {
+            background-color: var(--yellow) !important;
+            color: var(--black) !important;
+          }
+        }
+      }
+    }
+    .toggler {
+      border: none;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+    .logo {
+      padding-left: 20px;
+    }
+    .collapse {
+      flex-grow: 0;
+      .nav {
+        padding-right: 40px;
+        align-items: center;
+        .link {
+          padding: 8px 0;
+          padding-right: 50px;
+          font-weight: bolder;
+        }
+        .btn {
+          color: var(--black);
+          padding: 15px 30px;
+          text-transform: uppercase;
+          font-weight: bolder;
+          border: 0;
+          font-family: "Fraunces", serif;
+          &:hover {
+            background-color: var(--offwhite);
+            color: var(--white);
+          }
+        }
+      }
+    }
+  }
+}

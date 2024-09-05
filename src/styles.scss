@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+
+body {
+  background-color: var(--background);
+  // background-image: url(./assets/img/image-header.jpg);
+  // background-size: 100%;
+  // background-repeat: no-repeat;
+  // background-position: center -60px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  height: 100%;
+}
+
+:root {
+  --white: #fff;
+  --offwhite: #ffffff5f;
+  --gray: rgba(135, 135, 145, 1);
+  --gray2: rgb(89, 89, 89);
+  --black: #252525;
+
+  --yellow: rgba(251, 213, 5, 1);
+  --yellow2: rgb(255, 231, 113);
+  --orange: rgb(255, 151, 139);
+  --green: rgba(133, 206, 189, 1);
+  --green2: rgb(36, 83, 86);
+  --green3: rgb(47, 114, 101);
+  
+  --background: rgba(62, 191, 255, 1);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
