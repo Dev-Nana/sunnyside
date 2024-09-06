@@ -1,6 +1,6 @@
 # Frontend Mentor - Sunnyside agency landing page
 
-![Design preview for the Sunnyside agency landing page coding challenge](sunnyside-devnana.vercel.app)
+![Design preview for the Sunnyside agency landing page coding challenge](https://sunnyside-devnana.vercel.app/)
 
 ## Welcome! 👋
 
