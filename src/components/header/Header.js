@@ -17,7 +17,7 @@ export const Header = () => {
         <Navbar.Toggle className='navbar-dark toggler' aria-controls='basic-navbar-nav' />
         <Navbar.Collapse className='collapse' id='basic-navbar-nav'>
           <Nav className='nav me-auto'>
-            <Nav.Link href='#home' className='link text-white'>About2</Nav.Link>
+            <Nav.Link href='#home' className='link text-white'>About</Nav.Link>
             <Nav.Link href='#link' className='link text-white'>Services</Nav.Link>
             <Nav.Link href='#link' className='link text-white'>Projects</Nav.Link>
             <Button className='btn btn-light rounded-5'>Contact</Button>
